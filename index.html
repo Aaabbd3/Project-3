@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | Project 3</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -56,12 +56,12 @@
         updateBannerVisibility();
       }
 
-      var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Game.loader.js";
+
+      var loaderUrl = "Game.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Game.data.unityweb",
-        frameworkUrl: buildUrl + "/Game.framework.js.unityweb",
-        codeUrl: buildUrl + "/Game.wasm.unityweb",
+        dataUrl: "Game.data.unityweb",
+        frameworkUrl: "Game.framework.js.unityweb",
+        codeUrl: "Game.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Project 3",
